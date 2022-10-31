@@ -1,0 +1,14 @@
+table {
+    min-width: 400px;
+    max-width: 700;
+    border: 1px solid black;
+}
+
+.table-wrapper {
+width: 100%;
+overflow-x: scroll;
+}
+
+.text-light {
+    color: EEEEEE;
+}

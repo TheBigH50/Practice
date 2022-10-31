@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Tables and Forms</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+
+  <body>
+    <main>
+
+      <table>
+        <caption id="captionTop">Basic Nutritional Facts of Popular Sodas</caption>
+        <tr>
+          <thead>
+          <th class="row1">Soda</th>
+            <td class="row1">Coca Cola</td>
+            <td class="row1">Pepsi Cola</td>
+            <td class="row1">Coca Cola Zero</td>
+            <td class="row1">Dr. Pepper</td>
+            <td class="row1">Mountain Dew</td>
+          </thead>  
+        </tr>
+          <tbody>          
+          <tr>
+            <th>Total Servings</th>
+              <td>1</td>
+              <td>1</td>
+              <td>1</td>
+              <td>1</td>
+              <td>1</td>
+          </tr>
+          <tr>
+            <th>Serving Size</th>
+              <td>12 fl. oz.</td>
+              <td>12 fl. oz.</td>
+              <td>12 fl. oz.</td>
+              <td>12 fl. oz.</td>
+              <td>12 fl. oz.</td>
+          </tr>
+          <tr>
+          <th>Calories Per Serving</th>
+            <td>140</td>
+            <td>150</td>
+            <td>0</td>
+            <td>150</td>
+            <td>170</td>
+          </tr>
+          <tr>
+          <th>Carbs Per Serving</th>
+            <td>39</td>
+            <td>41</td>
+            <td>0</td>
+            <td>40</td>
+            <td>46</td>
+          </tr>
+          <tr>
+          <th>Sugars Per Serving</th>
+            <td>39</td>
+            <td>41</td>
+            <td>0</td>
+            <td>40</td>
+            <td>46</td>
+          </tr>
+          <tr>
+          <th>Sodium Per Serving</th>
+          <td>45</td>
+          <td>30</td>
+          <td>40</td>
+          <td>55</td>
+          <td>65</td>
+        </tr>
+        </tbody>
+      </table>
+
+      <form id="form1">
+
+        <label for="total servings">Total Servings</label>
+        <input type="number" name="total servings" id="total servings" placeholder="Average Daily Intake" id="ts"><br><br>
+
+        <label for="serving size">Serving Size</label>
+        <input type="number" name="serving size" id="serving size" placeholder="12 fl. oz. (One Can)"><br><br>
+
+        <label for="calories per serving">Calories Per Serving</label>
+        <input type="number" name="calories per serving" id="calories per serving" placeholder="Check or Guess"><br><br>
+
+        <label for="carbs per serving">Carbs Per Serving</label>
+        <input type="number" name="carbs per serving" id="carbs per serving" placeholder="Check or Guess"><br><br>
+
+        <label for="sugars per serving">Sugars Per Serving</label>
+        <input type="number" name="sugars per serving" id="sugars per serving" placeholder="Check or Guess"><br><br>
+
+        <label for="sodium per serving">Sodium Per Serving</label>
+        <input type="number" name="sodium per serving" id="sodium per serving" placeholder="Check or Guess"><br><br>
+
+        <button type="submit" form="form1">Submit</button>
+
+      </form>
+    </main>
+  </body>
+</html>
+

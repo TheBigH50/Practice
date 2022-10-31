@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 900px;
+}
+
+main {
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.flex-box {
+    display: flex;
+    background-color: blue;
+    flex-wrap: wrap;
+}
+
+.bckgrndColor-stndOut {
+    background-color: chartreuse;
+    border-radius: 25px;
+}
+
+h1 {
+    flex-direction: row;
+    justify-content: center;
+}
+
+h2 {
+    justify-content: center;
+    margin: 0.25rem;
+}
+
+h3 {
+    margin: 0.25rem;
+}
+
+.right-side-fixed {
+    margin-top: 250px;
+    align-self: flex-end;
+    position: fixed;
+    flex-direction: column;
+    background-color: antiquewhite;
+    flex-wrap: nowrap;
+}
+
+.section1 {
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.section2 {
+    margin-top: 50px;
+    flex-direction: column;
+    align-items: center;
+}
+
+p {
+    justify-content: center;
+}
+
+span {
+    padding-left: 0.35em;
+}
+
+ul {
+    flex-direction: column;
+}
+
+ol {
+    flex-direction: column;
+}
+
+#figure1 {
+    flex-direction: column;
+    margin: 1rem;
+}
+
+#figure2 {
+    flex-direction: column;
+}
+
+.image {
+    max-width: 200px;
+    align-self: center;
+    border-radius: 12px;
+    margin: 2rem;
+}
+
+#cat {
+    margin: auto;
+}
+
+#lasagna {
+    margin-bottom: 0.5rem;
+}
+
+#bttmSctn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    background-color: chartreuse;
+    border-radius: 25px;
+}
+
+figcaption {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 250px;
+    min-width: 200px;
+    align-self: center;
+}

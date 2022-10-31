@@ -1,0 +1,5 @@
+Create a folder
+Run "git init" in the folderDo the git workflow
+Create repo on github
+Run "git remote add origin <GITHUB_SSH_LINK>
+Run "git push -m" with origin main

@@ -1,0 +1,4 @@
+Make some edits
+Add edited files to the staging area
+Make a commit with message
+Push to remote
